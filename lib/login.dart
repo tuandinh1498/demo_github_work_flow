@@ -6,6 +6,12 @@ class Login extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
+      body: ListView(
+        padding:EdgeInsets.all(8) ,
+        children: [
+          Container()
+        ],
+      ),
     );
   }
 }
